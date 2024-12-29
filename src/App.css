@@ -1,0 +1,106 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background: #ecf0f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #bdc3c7;
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+a:hover {
+  color: #1a5a73;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.upload-section {
+  margin-top: 2rem;
+}
+
+.upload-section input[type='file'] {
+  margin: 1rem 0;
+  padding: 5px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+
+.grey {
+  background-color: rgb(231, 238, 235);
+}
+
+.chart-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.chart {
+  flex: 1;
+  max-width: 45%; /* Limit the width to prevent overflow */
+  overflow: hidden; /* Ensure content doesn't spill outside */
+}
+
+.container {
+  max-width: 1200px; /* Set a maximum width for the entire container */
+  margin: 0 auto; /* Center the container */
+  padding: 1rem; /* Add padding for better appearance */
+  box-sizing: border-box;
+}
+
+
